@@ -1,0 +1,6 @@
+module Pods_BooNap {
+  umbrella header "Pods-BooNap-umbrella.h"
+
+  export *
+  module * { export * }
+}

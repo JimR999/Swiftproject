@@ -1,0 +1,6 @@
+module Pods_BooNap_BooNapUITests {
+  umbrella header "Pods-BooNap-BooNapUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
