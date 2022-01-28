@@ -7,44 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075F86B9A1FFBCBA01B8E66B /* libPods-BooNap-BooNapUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6927C64526695AFA96BECB /* libPods-BooNap-BooNapUITests.a */; };
-		1053747778A2461C4D98B4B4 /* libPods-BooNapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4868BC0D8EBC39F9AE1ED69C /* libPods-BooNapTests.a */; };
 		A7183C642719668400CDB3A9 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7183C632719668400CDB3A9 /* ScrollableView.swift */; };
+		A742CCAE279ADABD004C6CC7 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742CCAD279ADABD004C6CC7 /* Sounds.swift */; };
+		A742CCB1279AE168004C6CC7 /* simple-breathing-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = A742CCB0279AE168004C6CC7 /* simple-breathing-animation.json */; };
+		A742CCB4279AE98F004C6CC7 /* atmung.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A742CCB3279AE98F004C6CC7 /* atmung.mp3 */; };
+		A742CCB6279AEE44004C6CC7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742CCB5279AEE44004C6CC7 /* Home.swift */; };
+		A742CCB9279AEF9A004C6CC7 /* 220121-atmung-einmal-ein-aus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A742CCB7279AEF9A004C6CC7 /* 220121-atmung-einmal-ein-aus.mp3 */; };
+		A742CCBA279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A742CCB8279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 */; };
+		A742CCBC279B09C9004C6CC7 /* weckerMusik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A742CCBB279B09C9004C6CC7 /* weckerMusik.mp3 */; };
 		A7444F9027256538008C9688 /* WaterLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444F8F27256538008C9688 /* WaterLevel.swift */; };
 		A7A9D6EF2721DA5F00295460 /* 11813-bubbles.json in Resources */ = {isa = PBXBuildFile; fileRef = A7A9D6EE2721DA5F00295460 /* 11813-bubbles.json */; };
 		A7B27D39271884690063AE3B /* BooNapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D38271884690063AE3B /* BooNapApp.swift */; };
 		A7B27D3B271884690063AE3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D3A271884690063AE3B /* ContentView.swift */; };
 		A7B27D3D2718846C0063AE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D3C2718846C0063AE3B /* Assets.xcassets */; };
 		A7B27D402718846C0063AE3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D3F2718846C0063AE3B /* Preview Assets.xcassets */; };
-		A7B27D4B2718846C0063AE3B /* BooNapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D4A2718846C0063AE3B /* BooNapTests.swift */; };
-		A7B27D562718846C0063AE3B /* BooNapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D552718846C0063AE3B /* BooNapUITests.swift */; };
 		A7B27D642718874A0063AE3B /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D632718874A0063AE3B /* LottieView.swift */; };
 		A7B27D6A271889950063AE3B /* 78292-water-wave-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D65271889950063AE3B /* 78292-water-wave-animation.json */; };
 		A7B27D6B271889950063AE3B /* 77378-sunset.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D66271889950063AE3B /* 77378-sunset.json */; };
 		A7B27D6C271889950063AE3B /* 211009-boonap-proto.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D67271889950063AE3B /* 211009-boonap-proto.json */; };
 		A7B27D6D271889950063AE3B /* 37384-background-animation-of-love-sign.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D68271889950063AE3B /* 37384-background-animation-of-love-sign.json */; };
 		A7B27D6E271889950063AE3B /* 18979-boat-on-peaceful-water.json in Resources */ = {isa = PBXBuildFile; fileRef = A7B27D69271889950063AE3B /* 18979-boat-on-peaceful-water.json */; };
+		A7D6FD4A273C2D22006DAB88 /* CustomePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D6FD49273C2D22006DAB88 /* CustomePickerView.swift */; };
+		A7D6FD54273D43D1006DAB88 /* MPLUSRounded1c-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD4D273D43D0006DAB88 /* MPLUSRounded1c-Black.ttf */; };
+		A7D6FD55273D43D1006DAB88 /* MPLUSRounded1c-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD4E273D43D0006DAB88 /* MPLUSRounded1c-Bold.ttf */; };
+		A7D6FD56273D43D1006DAB88 /* MPLUSRounded1c-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD4F273D43D0006DAB88 /* MPLUSRounded1c-Light.ttf */; };
+		A7D6FD57273D43D1006DAB88 /* MPLUSRounded1c-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD50273D43D0006DAB88 /* MPLUSRounded1c-Thin.ttf */; };
+		A7D6FD58273D43D1006DAB88 /* MPLUSRounded1c-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD51273D43D0006DAB88 /* MPLUSRounded1c-Regular.ttf */; };
+		A7D6FD59273D43D1006DAB88 /* MPLUSRounded1c-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD52273D43D1006DAB88 /* MPLUSRounded1c-ExtraBold.ttf */; };
+		A7D6FD5A273D43D1006DAB88 /* MPLUSRounded1c-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D6FD53273D43D1006DAB88 /* MPLUSRounded1c-Medium.ttf */; };
 		A7E0EFD02720930C00CC08A4 /* LiquedSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E0EFCF2720930C00CC08A4 /* LiquedSwipe.swift */; };
 		A7F3FD79271ACBCA0022B2D6 /* 30221-bubbles.json in Resources */ = {isa = PBXBuildFile; fileRef = A7F3FD78271ACBCA0022B2D6 /* 30221-bubbles.json */; };
 		AE87D05EE5D36AB7B8EA408B /* libPods-BooNap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD942FBB5110B8CD4A2C59 /* libPods-BooNap.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A7B27D472718846C0063AE3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B27D2D271884690063AE3B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7B27D34271884690063AE3B;
-			remoteInfo = BooNap;
-		};
-		A7B27D522718846C0063AE3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7B27D2D271884690063AE3B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7B27D34271884690063AE3B;
-			remoteInfo = BooNap;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A1926AC4655ACA9D176ADF1 /* Pods-BooNap-BooNapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BooNap-BooNapUITests.release.xcconfig"; path = "Target Support Files/Pods-BooNap-BooNapUITests/Pods-BooNap-BooNapUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +48,13 @@
 		56324329A64EBA6C9AFB0A79 /* Pods-BooNapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BooNapTests.debug.xcconfig"; path = "Target Support Files/Pods-BooNapTests/Pods-BooNapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		58AD942FBB5110B8CD4A2C59 /* libPods-BooNap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BooNap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7183C632719668400CDB3A9 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		A742CCAD279ADABD004C6CC7 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		A742CCB0279AE168004C6CC7 /* simple-breathing-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "simple-breathing-animation.json"; sourceTree = "<group>"; };
+		A742CCB3279AE98F004C6CC7 /* atmung.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atmung.mp3; sourceTree = "<group>"; };
+		A742CCB5279AEE44004C6CC7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A742CCB7279AEF9A004C6CC7 /* 220121-atmung-einmal-ein-aus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "220121-atmung-einmal-ein-aus.mp3"; sourceTree = "<group>"; };
+		A742CCB8279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "220121-nur-stimme.mp3"; sourceTree = "<group>"; };
+		A742CCBB279B09C9004C6CC7 /* weckerMusik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weckerMusik.mp3; sourceTree = "<group>"; };
 		A7444F8F27256538008C9688 /* WaterLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevel.swift; sourceTree = "<group>"; };
 		A7A9D6EE2721DA5F00295460 /* 11813-bubbles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "11813-bubbles.json"; sourceTree = "<group>"; };
 		A7B27D35271884690063AE3B /* BooNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +63,8 @@
 		A7B27D3C2718846C0063AE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B27D3F2718846C0063AE3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7B27D412718846C0063AE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7B27D462718846C0063AE3B /* BooNapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooNapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B27D4A2718846C0063AE3B /* BooNapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooNapTests.swift; sourceTree = "<group>"; };
 		A7B27D4C2718846C0063AE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7B27D512718846C0063AE3B /* BooNapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooNapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B27D552718846C0063AE3B /* BooNapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooNapUITests.swift; sourceTree = "<group>"; };
 		A7B27D572718846C0063AE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B27D632718874A0063AE3B /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
@@ -74,6 +73,14 @@
 		A7B27D67271889950063AE3B /* 211009-boonap-proto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "211009-boonap-proto.json"; sourceTree = "<group>"; };
 		A7B27D68271889950063AE3B /* 37384-background-animation-of-love-sign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "37384-background-animation-of-love-sign.json"; sourceTree = "<group>"; };
 		A7B27D69271889950063AE3B /* 18979-boat-on-peaceful-water.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "18979-boat-on-peaceful-water.json"; sourceTree = "<group>"; };
+		A7D6FD49273C2D22006DAB88 /* CustomePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomePickerView.swift; sourceTree = "<group>"; };
+		A7D6FD4D273D43D0006DAB88 /* MPLUSRounded1c-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Black.ttf"; sourceTree = "<group>"; };
+		A7D6FD4E273D43D0006DAB88 /* MPLUSRounded1c-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Bold.ttf"; sourceTree = "<group>"; };
+		A7D6FD4F273D43D0006DAB88 /* MPLUSRounded1c-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Light.ttf"; sourceTree = "<group>"; };
+		A7D6FD50273D43D0006DAB88 /* MPLUSRounded1c-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Thin.ttf"; sourceTree = "<group>"; };
+		A7D6FD51273D43D0006DAB88 /* MPLUSRounded1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Regular.ttf"; sourceTree = "<group>"; };
+		A7D6FD52273D43D1006DAB88 /* MPLUSRounded1c-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A7D6FD53273D43D1006DAB88 /* MPLUSRounded1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Medium.ttf"; sourceTree = "<group>"; };
 		A7E0EFCF2720930C00CC08A4 /* LiquedSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquedSwipe.swift; sourceTree = "<group>"; };
 		A7F3FD78271ACBCA0022B2D6 /* 30221-bubbles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "30221-bubbles.json"; sourceTree = "<group>"; };
 		AFD461DA119E0A67DB4388D5 /* Pods-BooNap-BooNapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BooNap-BooNapUITests.debug.xcconfig"; path = "Target Support Files/Pods-BooNap-BooNapUITests/Pods-BooNap-BooNapUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,22 +97,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7B27D432718846C0063AE3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1053747778A2461C4D98B4B4 /* libPods-BooNapTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7B27D4E2718846C0063AE3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				075F86B9A1FFBCBA01B8E66B /* libPods-BooNap-BooNapUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,6 +108,33 @@
 				4868BC0D8EBC39F9AE1ED69C /* libPods-BooNapTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A742CCAC279ADA9E004C6CC7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A742CCAD279ADABD004C6CC7 /* Sounds.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A742CCAF279ADF31004C6CC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7444F8F27256538008C9688 /* WaterLevel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A742CCB2279AE95D004C6CC7 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A742CCBB279B09C9004C6CC7 /* weckerMusik.mp3 */,
+				A742CCB7279AEF9A004C6CC7 /* 220121-atmung-einmal-ein-aus.mp3 */,
+				A742CCB8279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 */,
+				A742CCB3279AE98F004C6CC7 /* atmung.mp3 */,
+			);
+			path = AudioFiles;
 			sourceTree = "<group>";
 		};
 		A7B27D2C271884690063AE3B = {
@@ -135,8 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				A7B27D35271884690063AE3B /* BooNap.app */,
-				A7B27D462718846C0063AE3B /* BooNapTests.xctest */,
-				A7B27D512718846C0063AE3B /* BooNapUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,22 +160,17 @@
 		A7B27D37271884690063AE3B /* BooNap */ = {
 			isa = PBXGroup;
 			children = (
+				A742CCB2279AE95D004C6CC7 /* AudioFiles */,
+				A742CCAF279ADF31004C6CC7 /* Models */,
+				A742CCAC279ADA9E004C6CC7 /* Helper */,
+				A7D6FD5C273D4DA8006DAB88 /* Animations */,
+				A7D6FD5B273D4D84006DAB88 /* Views */,
 				A7B27D38271884690063AE3B /* BooNapApp.swift */,
 				A7B27D3A271884690063AE3B /* ContentView.swift */,
-				A7E0EFCF2720930C00CC08A4 /* LiquedSwipe.swift */,
-				A7183C632719668400CDB3A9 /* ScrollableView.swift */,
-				A7B27D632718874A0063AE3B /* LottieView.swift */,
 				A7B27D3C2718846C0063AE3B /* Assets.xcassets */,
-				A7F3FD78271ACBCA0022B2D6 /* 30221-bubbles.json */,
-				A7A9D6EE2721DA5F00295460 /* 11813-bubbles.json */,
-				A7B27D69271889950063AE3B /* 18979-boat-on-peaceful-water.json */,
-				A7B27D68271889950063AE3B /* 37384-background-animation-of-love-sign.json */,
-				A7B27D66271889950063AE3B /* 77378-sunset.json */,
-				A7B27D65271889950063AE3B /* 78292-water-wave-animation.json */,
-				A7B27D67271889950063AE3B /* 211009-boonap-proto.json */,
 				A7B27D412718846C0063AE3B /* Info.plist */,
+				A7D6FD4B273D43A5006DAB88 /* fonts */,
 				A7B27D3E2718846C0063AE3B /* Preview Content */,
-				A7444F8F27256538008C9688 /* WaterLevel.swift */,
 			);
 			path = BooNap;
 			sourceTree = "<group>";
@@ -188,6 +199,55 @@
 				A7B27D572718846C0063AE3B /* Info.plist */,
 			);
 			path = BooNapUITests;
+			sourceTree = "<group>";
+		};
+		A7D6FD4B273D43A5006DAB88 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A7D6FD4C273D43AD006DAB88 /* M PLUS Rounded */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		A7D6FD4C273D43AD006DAB88 /* M PLUS Rounded */ = {
+			isa = PBXGroup;
+			children = (
+				A7D6FD4D273D43D0006DAB88 /* MPLUSRounded1c-Black.ttf */,
+				A7D6FD4E273D43D0006DAB88 /* MPLUSRounded1c-Bold.ttf */,
+				A7D6FD52273D43D1006DAB88 /* MPLUSRounded1c-ExtraBold.ttf */,
+				A7D6FD4F273D43D0006DAB88 /* MPLUSRounded1c-Light.ttf */,
+				A7D6FD53273D43D1006DAB88 /* MPLUSRounded1c-Medium.ttf */,
+				A7D6FD51273D43D0006DAB88 /* MPLUSRounded1c-Regular.ttf */,
+				A7D6FD50273D43D0006DAB88 /* MPLUSRounded1c-Thin.ttf */,
+			);
+			path = "M PLUS Rounded";
+			sourceTree = "<group>";
+		};
+		A7D6FD5B273D4D84006DAB88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7183C632719668400CDB3A9 /* ScrollableView.swift */,
+				A7D6FD49273C2D22006DAB88 /* CustomePickerView.swift */,
+				A7B27D632718874A0063AE3B /* LottieView.swift */,
+				A7E0EFCF2720930C00CC08A4 /* LiquedSwipe.swift */,
+				A742CCB5279AEE44004C6CC7 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7D6FD5C273D4DA8006DAB88 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A742CCB0279AE168004C6CC7 /* simple-breathing-animation.json */,
+				A7F3FD78271ACBCA0022B2D6 /* 30221-bubbles.json */,
+				A7A9D6EE2721DA5F00295460 /* 11813-bubbles.json */,
+				A7B27D69271889950063AE3B /* 18979-boat-on-peaceful-water.json */,
+				A7B27D68271889950063AE3B /* 37384-background-animation-of-love-sign.json */,
+				A7B27D66271889950063AE3B /* 77378-sunset.json */,
+				A7B27D65271889950063AE3B /* 78292-water-wave-animation.json */,
+				A7B27D67271889950063AE3B /* 211009-boonap-proto.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		C5AFC6326F8EB5410DADAB0A /* Pods */ = {
@@ -224,44 +284,6 @@
 			productReference = A7B27D35271884690063AE3B /* BooNap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7B27D452718846C0063AE3B /* BooNapTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7B27D5D2718846C0063AE3B /* Build configuration list for PBXNativeTarget "BooNapTests" */;
-			buildPhases = (
-				9642CA1B6D6CCF772442E9D7 /* [CP] Check Pods Manifest.lock */,
-				A7B27D422718846C0063AE3B /* Sources */,
-				A7B27D432718846C0063AE3B /* Frameworks */,
-				A7B27D442718846C0063AE3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7B27D482718846C0063AE3B /* PBXTargetDependency */,
-			);
-			name = BooNapTests;
-			productName = BooNapTests;
-			productReference = A7B27D462718846C0063AE3B /* BooNapTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A7B27D502718846C0063AE3B /* BooNapUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7B27D602718846C0063AE3B /* Build configuration list for PBXNativeTarget "BooNapUITests" */;
-			buildPhases = (
-				8F71B83AC96C13B884482B58 /* [CP] Check Pods Manifest.lock */,
-				A7B27D4D2718846C0063AE3B /* Sources */,
-				A7B27D4E2718846C0063AE3B /* Frameworks */,
-				A7B27D4F2718846C0063AE3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7B27D532718846C0063AE3B /* PBXTargetDependency */,
-			);
-			name = BooNapUITests;
-			productName = BooNapUITests;
-			productReference = A7B27D512718846C0063AE3B /* BooNapUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -273,14 +295,6 @@
 				TargetAttributes = {
 					A7B27D34271884690063AE3B = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					A7B27D452718846C0063AE3B = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = A7B27D34271884690063AE3B;
-					};
-					A7B27D502718846C0063AE3B = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = A7B27D34271884690063AE3B;
 					};
 				};
 			};
@@ -298,8 +312,6 @@
 			projectRoot = "";
 			targets = (
 				A7B27D34271884690063AE3B /* BooNap */,
-				A7B27D452718846C0063AE3B /* BooNapTests */,
-				A7B27D502718846C0063AE3B /* BooNapUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,79 +321,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D6FD57273D43D1006DAB88 /* MPLUSRounded1c-Thin.ttf in Resources */,
 				A7B27D6D271889950063AE3B /* 37384-background-animation-of-love-sign.json in Resources */,
 				A7B27D6B271889950063AE3B /* 77378-sunset.json in Resources */,
+				A7D6FD55273D43D1006DAB88 /* MPLUSRounded1c-Bold.ttf in Resources */,
 				A7B27D6A271889950063AE3B /* 78292-water-wave-animation.json in Resources */,
+				A742CCB9279AEF9A004C6CC7 /* 220121-atmung-einmal-ein-aus.mp3 in Resources */,
 				A7B27D6E271889950063AE3B /* 18979-boat-on-peaceful-water.json in Resources */,
+				A7D6FD54273D43D1006DAB88 /* MPLUSRounded1c-Black.ttf in Resources */,
 				A7B27D402718846C0063AE3B /* Preview Assets.xcassets in Resources */,
+				A742CCB4279AE98F004C6CC7 /* atmung.mp3 in Resources */,
+				A742CCBC279B09C9004C6CC7 /* weckerMusik.mp3 in Resources */,
 				A7A9D6EF2721DA5F00295460 /* 11813-bubbles.json in Resources */,
+				A7D6FD5A273D43D1006DAB88 /* MPLUSRounded1c-Medium.ttf in Resources */,
 				A7B27D6C271889950063AE3B /* 211009-boonap-proto.json in Resources */,
+				A742CCBA279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 in Resources */,
 				A7F3FD79271ACBCA0022B2D6 /* 30221-bubbles.json in Resources */,
+				A7D6FD59273D43D1006DAB88 /* MPLUSRounded1c-ExtraBold.ttf in Resources */,
+				A7D6FD58273D43D1006DAB88 /* MPLUSRounded1c-Regular.ttf in Resources */,
 				A7B27D3D2718846C0063AE3B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7B27D442718846C0063AE3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7B27D4F2718846C0063AE3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A742CCB1279AE168004C6CC7 /* simple-breathing-animation.json in Resources */,
+				A7D6FD56273D43D1006DAB88 /* MPLUSRounded1c-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8F71B83AC96C13B884482B58 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BooNap-BooNapUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9642CA1B6D6CCF772442E9D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BooNapTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CF9092CF223D02C96C6DF6EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,41 +381,15 @@
 				A7B27D3B271884690063AE3B /* ContentView.swift in Sources */,
 				A7183C642719668400CDB3A9 /* ScrollableView.swift in Sources */,
 				A7E0EFD02720930C00CC08A4 /* LiquedSwipe.swift in Sources */,
+				A742CCB6279AEE44004C6CC7 /* Home.swift in Sources */,
 				A7B27D39271884690063AE3B /* BooNapApp.swift in Sources */,
 				A7B27D642718874A0063AE3B /* LottieView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7B27D422718846C0063AE3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7B27D4B2718846C0063AE3B /* BooNapTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7B27D4D2718846C0063AE3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7B27D562718846C0063AE3B /* BooNapUITests.swift in Sources */,
+				A7D6FD4A273C2D22006DAB88 /* CustomePickerView.swift in Sources */,
+				A742CCAE279ADABD004C6CC7 /* Sounds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7B27D482718846C0063AE3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7B27D34271884690063AE3B /* BooNap */;
-			targetProxy = A7B27D472718846C0063AE3B /* PBXContainerItemProxy */;
-		};
-		A7B27D532718846C0063AE3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7B27D34271884690063AE3B /* BooNap */;
-			targetProxy = A7B27D522718846C0063AE3B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A7B27D582718846C0063AE3B /* Debug */ = {
@@ -579,7 +519,7 @@
 				DEVELOPMENT_TEAM = 35PKA72GH8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BooNap/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,7 +542,7 @@
 				DEVELOPMENT_TEAM = 35PKA72GH8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BooNap/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,94 +551,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A7B27D5E2718846C0063AE3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56324329A64EBA6C9AFB0A79 /* Pods-BooNapTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35PKA72GH8;
-				INFOPLIST_FILE = BooNapTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = JB.BooNapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BooNap.app/BooNap";
-			};
-			name = Debug;
-		};
-		A7B27D5F2718846C0063AE3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FEA093C74489A4DB8155A3F /* Pods-BooNapTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35PKA72GH8;
-				INFOPLIST_FILE = BooNapTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = JB.BooNapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BooNap.app/BooNap";
-			};
-			name = Release;
-		};
-		A7B27D612718846C0063AE3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFD461DA119E0A67DB4388D5 /* Pods-BooNap-BooNapUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35PKA72GH8;
-				INFOPLIST_FILE = BooNapUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = JB.BooNapUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BooNap;
-			};
-			name = Debug;
-		};
-		A7B27D622718846C0063AE3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A1926AC4655ACA9D176ADF1 /* Pods-BooNap-BooNapUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35PKA72GH8;
-				INFOPLIST_FILE = BooNapUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = JB.BooNapUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BooNap;
 			};
 			name = Release;
 		};
@@ -719,24 +571,6 @@
 			buildConfigurations = (
 				A7B27D5B2718846C0063AE3B /* Debug */,
 				A7B27D5C2718846C0063AE3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7B27D5D2718846C0063AE3B /* Build configuration list for PBXNativeTarget "BooNapTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7B27D5E2718846C0063AE3B /* Debug */,
-				A7B27D5F2718846C0063AE3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7B27D602718846C0063AE3B /* Build configuration list for PBXNativeTarget "BooNapUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7B27D612718846C0063AE3B /* Debug */,
-				A7B27D622718846C0063AE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
