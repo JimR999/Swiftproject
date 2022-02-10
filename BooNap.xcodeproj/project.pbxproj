@@ -16,6 +16,7 @@
 		A742CCBA279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A742CCB8279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 */; };
 		A742CCBC279B09C9004C6CC7 /* weckerMusik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A742CCBB279B09C9004C6CC7 /* weckerMusik.mp3 */; };
 		A7444F9027256538008C9688 /* WaterLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444F8F27256538008C9688 /* WaterLevel.swift */; };
+		A748922827AE8AB8009AFDB1 /* WaterWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748922727AE8AB8009AFDB1 /* WaterWave.swift */; };
 		A7A9D6EF2721DA5F00295460 /* 11813-bubbles.json in Resources */ = {isa = PBXBuildFile; fileRef = A7A9D6EE2721DA5F00295460 /* 11813-bubbles.json */; };
 		A7B27D39271884690063AE3B /* BooNapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D38271884690063AE3B /* BooNapApp.swift */; };
 		A7B27D3B271884690063AE3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B27D3A271884690063AE3B /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 		A742CCB8279AEF9A004C6CC7 /* 220121-nur-stimme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "220121-nur-stimme.mp3"; sourceTree = "<group>"; };
 		A742CCBB279B09C9004C6CC7 /* weckerMusik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weckerMusik.mp3; sourceTree = "<group>"; };
 		A7444F8F27256538008C9688 /* WaterLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevel.swift; sourceTree = "<group>"; };
+		A748922727AE8AB8009AFDB1 /* WaterWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWave.swift; sourceTree = "<group>"; };
 		A7A9D6EE2721DA5F00295460 /* 11813-bubbles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "11813-bubbles.json"; sourceTree = "<group>"; };
 		A7B27D35271884690063AE3B /* BooNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B27D38271884690063AE3B /* BooNapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooNapApp.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				A7B27D632718874A0063AE3B /* LottieView.swift */,
 				A7E0EFCF2720930C00CC08A4 /* LiquedSwipe.swift */,
 				A742CCB5279AEE44004C6CC7 /* Home.swift */,
+				A748922727AE8AB8009AFDB1 /* WaterWave.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				A7B27D3B271884690063AE3B /* ContentView.swift in Sources */,
 				A7183C642719668400CDB3A9 /* ScrollableView.swift in Sources */,
 				A7E0EFD02720930C00CC08A4 /* LiquedSwipe.swift in Sources */,
+				A748922827AE8AB8009AFDB1 /* WaterWave.swift in Sources */,
 				A742CCB6279AEE44004C6CC7 /* Home.swift in Sources */,
 				A7B27D39271884690063AE3B /* BooNapApp.swift in Sources */,
 				A7B27D642718874A0063AE3B /* LottieView.swift in Sources */,
@@ -519,7 +523,7 @@
 				DEVELOPMENT_TEAM = 35PKA72GH8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BooNap/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,7 +546,7 @@
 				DEVELOPMENT_TEAM = 35PKA72GH8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BooNap/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
